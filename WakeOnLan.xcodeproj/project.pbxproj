@@ -11,6 +11,15 @@
 		F8227B6B298A8FE8005FAEEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8227B6A298A8FE8005FAEEB /* ContentView.swift */; };
 		F8227B6D298A8FE9005FAEEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8227B6C298A8FE9005FAEEB /* Assets.xcassets */; };
 		F8227B70298A8FE9005FAEEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8227B6F298A8FE9005FAEEB /* Preview Assets.xcassets */; };
+		F8227B78298A903C005FAEEB /* PingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8227B77298A903C005FAEEB /* PingService.swift */; };
+		F8227B7C298A97D2005FAEEB /* OverviewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8227B7B298A97D2005FAEEB /* OverviewList.swift */; };
+		F8227B7E298A97DD005FAEEB /* OverviewListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8227B7D298A97DD005FAEEB /* OverviewListRow.swift */; };
+		F8227B82298A98A9005FAEEB /* OverviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8227B81298A98A9005FAEEB /* OverviewViewModel.swift */; };
+		F8227B85298A99D9005FAEEB /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8227B84298A99D9005FAEEB /* Endpoint.swift */; };
+		F8227B87298A9F97005FAEEB /* WOLService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8227B86298A9F97005FAEEB /* WOLService.swift */; };
+		F8227B89298AA66B005FAEEB /* OverviewAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8227B88298AA66B005FAEEB /* OverviewAddView.swift */; };
+		F8227B8C298AABF0005FAEEB /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8227B8B298AABF0005FAEEB /* Settings.swift */; };
+		F8227B8F298AAC95005FAEEB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8227B8E298AAC95005FAEEB /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,16 @@
 		F8227B6A298A8FE8005FAEEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F8227B6C298A8FE9005FAEEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8227B6F298A8FE9005FAEEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8227B77298A903C005FAEEB /* PingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingService.swift; sourceTree = "<group>"; };
+		F8227B7B298A97D2005FAEEB /* OverviewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewList.swift; sourceTree = "<group>"; };
+		F8227B7D298A97DD005FAEEB /* OverviewListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewListRow.swift; sourceTree = "<group>"; };
+		F8227B81298A98A9005FAEEB /* OverviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewModel.swift; sourceTree = "<group>"; };
+		F8227B84298A99D9005FAEEB /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		F8227B86298A9F97005FAEEB /* WOLService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WOLService.swift; sourceTree = "<group>"; };
+		F8227B88298AA66B005FAEEB /* OverviewAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewAddView.swift; sourceTree = "<group>"; };
+		F8227B8A298AA931005FAEEB /* WakeOnLan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WakeOnLan.entitlements; sourceTree = "<group>"; };
+		F8227B8B298AABF0005FAEEB /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		F8227B8E298AAC95005FAEEB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +70,11 @@
 		F8227B67298A8FE8005FAEEB /* WakeOnLan */ = {
 			isa = PBXGroup;
 			children = (
+				F8227B8A298AA931005FAEEB /* WakeOnLan.entitlements */,
+				F8227B83298A99CD005FAEEB /* Model */,
+				F8227B7F298A989A005FAEEB /* ViewModel */,
+				F8227B79298A97BB005FAEEB /* View */,
+				F8227B76298A902B005FAEEB /* Services */,
 				F8227B68298A8FE8005FAEEB /* WakeOnLanApp.swift */,
 				F8227B6A298A8FE8005FAEEB /* ContentView.swift */,
 				F8227B6C298A8FE9005FAEEB /* Assets.xcassets */,
@@ -65,6 +89,67 @@
 				F8227B6F298A8FE9005FAEEB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F8227B76298A902B005FAEEB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F8227B77298A903C005FAEEB /* PingService.swift */,
+				F8227B86298A9F97005FAEEB /* WOLService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F8227B79298A97BB005FAEEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F8227B8D298AAC8B005FAEEB /* Settings */,
+				F8227B7A298A97C1005FAEEB /* Overview */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F8227B7A298A97C1005FAEEB /* Overview */ = {
+			isa = PBXGroup;
+			children = (
+				F8227B7B298A97D2005FAEEB /* OverviewList.swift */,
+				F8227B7D298A97DD005FAEEB /* OverviewListRow.swift */,
+				F8227B88298AA66B005FAEEB /* OverviewAddView.swift */,
+			);
+			path = Overview;
+			sourceTree = "<group>";
+		};
+		F8227B7F298A989A005FAEEB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F8227B80298A989E005FAEEB /* Overview */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F8227B80298A989E005FAEEB /* Overview */ = {
+			isa = PBXGroup;
+			children = (
+				F8227B81298A98A9005FAEEB /* OverviewViewModel.swift */,
+			);
+			path = Overview;
+			sourceTree = "<group>";
+		};
+		F8227B83298A99CD005FAEEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F8227B84298A99D9005FAEEB /* Endpoint.swift */,
+				F8227B8B298AABF0005FAEEB /* Settings.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F8227B8D298AAC8B005FAEEB /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F8227B8E298AAC95005FAEEB /* SettingsView.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +222,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8227B85298A99D9005FAEEB /* Endpoint.swift in Sources */,
+				F8227B89298AA66B005FAEEB /* OverviewAddView.swift in Sources */,
+				F8227B7C298A97D2005FAEEB /* OverviewList.swift in Sources */,
+				F8227B7E298A97DD005FAEEB /* OverviewListRow.swift in Sources */,
+				F8227B8C298AABF0005FAEEB /* Settings.swift in Sources */,
 				F8227B6B298A8FE8005FAEEB /* ContentView.swift in Sources */,
 				F8227B69298A8FE8005FAEEB /* WakeOnLanApp.swift in Sources */,
+				F8227B78298A903C005FAEEB /* PingService.swift in Sources */,
+				F8227B87298A9F97005FAEEB /* WOLService.swift in Sources */,
+				F8227B82298A98A9005FAEEB /* OverviewViewModel.swift in Sources */,
+				F8227B8F298AAC95005FAEEB /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WakeOnLan/WakeOnLan.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WakeOnLan/Preview Content\"";
@@ -293,6 +388,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WakeOnLan/WakeOnLan.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WakeOnLan/Preview Content\"";
